@@ -1,0 +1,581 @@
+<testsuites name="jest tests" tests="5" failures="5" time="2.053">
+  <testsuite name="undefined" errors="0" failures="5" skipped="0" timestamp="2023-07-15T08:51:16" time="2.053" tests="5">
+    <testcase classname=" For each task in stage 0 and stage 1, backward and forward buttons are correctly enabled/disabled" name=" For each task in stage 0 and stage 1, backward and forward buttons are correctly enabled/disabled" time="0.129">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 3
+Received: 4
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/src/App.test.js:36:42)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" For each task in stage 2 and stage 3, backward and forward buttons are correctly enabled/disabled" name=" For each task in stage 2 and stage 3, backward and forward buttons are correctly enabled/disabled" time="0.025">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 1
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/src/App.test.js:107:36)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" For a task in stage 0, can be moved forward till stage 4 and buttons are correctly enabled and disabled in stage 4" name=" For a task in stage 0, can be moved forward till stage 4 and buttons are correctly enabled and disabled in stage 4" time="0.059">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/src/App.test.js:172:68)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" For a task in stage 4, can be moved backward till stage 0 and check for buttons are enabled/disabled correctly" name=" For a task in stage 4, can be moved backward till stage 0 and check for buttons are enabled/disabled correctly" time="0.043">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/src/App.test.js:227:65)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" after many forward and back operations, tasks are in correct state" name=" after many forward and back operations, tasks are in correct state" time="0.071">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-10-back&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h8k-navbar
+        header=&quot;Kanban Board&quot;
+      /&gt;
+      &lt;div
+        class=&quot;mt-20 layout-column justify-content-center align-items-center&quot;
+      &gt;
+        &lt;div
+          class=&quot;mt-50 layout-row&quot;
+        &gt;
+          &lt;div
+            class=&quot;card outlined ml-20 mt-0&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4&gt;
+                Backlog
+              &lt;/h4&gt;
+              &lt;ul
+                class=&quot;styled mt-50&quot;
+                data-testid=&quot;stage-0&quot;
+              &gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-0-name&quot;
+                    &gt;
+                      task 0
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-0-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-0-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-3-name&quot;
+                    &gt;
+                      task 3
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-3-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-3-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-6-name&quot;
+                    &gt;
+                      task 6
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-6-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-6-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined ml-20 mt-0&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4&gt;
+                To Do
+              &lt;/h4&gt;
+              &lt;ul
+                class=&quot;styled mt-50&quot;
+                data-testid=&quot;stage-1&quot;
+              &gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-1-name&quot;
+                    &gt;
+                      task 1
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-1-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-1-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-2-name&quot;
+                    &gt;
+                      task 2
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-2-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-2-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-8-name&quot;
+                    &gt;
+                      task 8
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-8-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-8-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined ml-20 mt-0&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4&gt;
+                Ongoing
+              &lt;/h4&gt;
+              &lt;ul
+                class=&quot;styled mt-50&quot;
+                data-testid=&quot;stage-2&quot;
+              &gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-4-name&quot;
+                    &gt;
+                      task 4
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-4-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-4-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-5-name&quot;
+                    &gt;
+                      task 5
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-5-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-5-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-9-name&quot;
+                    &gt;
+                      task 9
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-9-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-9-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined ml-20 mt-0&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4&gt;
+                Done
+              &lt;/h4&gt;
+              &lt;ul
+                class=&quot;styled mt-50&quot;
+                data-testid=&quot;stage-3&quot;
+              &gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;task-7-name&quot;
+                    &gt;
+                      task 7
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-7-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;task-7-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at getByTestId (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@testing-library/dom/dist/query-helpers.js:83:17)
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/src/App.test.js:257:18)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-kanban-board/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

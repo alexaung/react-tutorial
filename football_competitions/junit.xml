@@ -1,0 +1,245 @@
+<testsuites name="jest tests" tests="4" failures="4" time="0.868">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2023-07-16T07:21:26" time="0.868" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.046">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;app-title&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;h8k-navbar
+        header=&quot;Football Competitions&quot;
+      /&gt;
+      &lt;div
+        class=&quot;layout-row&quot;
+      &gt;
+        &lt;div
+          class=&quot;section-title&quot;
+        &gt;
+          Select Year
+        &lt;/div&gt;
+        &lt;ul
+          class=&quot;sidebar&quot;
+          data-testid=&quot;year-list&quot;
+        &gt;
+          &lt;li
+            class=&quot;sidebar-item&quot;
+          &gt;
+            &lt;a&gt;
+              2011
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li
+            class=&quot;sidebar-item&quot;
+          &gt;
+            &lt;a&gt;
+              2012
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li
+            class=&quot;sidebar-item&quot;
+          &gt;
+            &lt;a&gt;
+              2013
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li
+            class=&quot;sidebar-item&quot;
+          &gt;
+            &lt;a&gt;
+              2014
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li
+            class=&quot;sidebar-item&quot;
+          &gt;
+            &lt;a&gt;
+              2015
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li
+            class=&quot;sidebar-item&quot;
+          &gt;
+            &lt;a&gt;
+              2016
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li
+            class=&quot;sidebar-item&quot;
+          &gt;
+            &lt;a&gt;
+              2017
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;section
+          class=&quot;content&quot;
+        /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at getByTestId (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@testing-library/dom/dist/query-helpers.js:83:17)
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/src/App.test.js:16:10)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+      <failure>TypeError: _jestFetchMock.default.restore is not a function
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/src/App.test.js:10:13)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:158:5)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="0.006">
+      <failure>TypeError: _jestFetchMock.default.getOnce is not a function
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/src/App.test.js:28:13)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+      <failure>TypeError: _jestFetchMock.default.restore is not a function
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/src/App.test.js:10:13)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:158:5)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="0.004">
+      <failure>TypeError: _jestFetchMock.default.getOnce is not a function
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/src/App.test.js:54:13)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+      <failure>TypeError: _jestFetchMock.default.restore is not a function
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/src/App.test.js:10:13)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:158:5)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="0.004">
+      <failure>TypeError: _jestFetchMock.default.getOnce is not a function
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/src/App.test.js:113:13)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+      <failure>TypeError: _jestFetchMock.default.restore is not a function
+    at Object.&lt;anonymous&gt; (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/src/App.test.js:10:13)
+    at Promise.then.completed (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:158:5)
+    at _runTestsForDescribeBlock (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/aungmyooo/Development/hackerrank/hackerrank-react-football_competitions/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

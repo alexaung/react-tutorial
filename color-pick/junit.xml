@@ -1,0 +1,18 @@
+<testsuites name="jest tests" tests="7" failures="0" time="2.92">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2023-07-16T07:45:03" time="2.92" tests="7">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.036">
+    </testcase>
+    <testcase classname=" click on color 1 changes the canvas color" name=" click on color 1 changes the canvas color" time="0.013">
+    </testcase>
+    <testcase classname=" click on color 2 changes the canvas color" name=" click on color 2 changes the canvas color" time="0.004">
+    </testcase>
+    <testcase classname=" click on color 3 changes the canvas color" name=" click on color 3 changes the canvas color" time="0.005">
+    </testcase>
+    <testcase classname=" click on color 4 changes the canvas color" name=" click on color 4 changes the canvas color" time="0.005">
+    </testcase>
+    <testcase classname=" click on color 5 changes the canvas color" name=" click on color 5 changes the canvas color" time="0.005">
+    </testcase>
+    <testcase classname=" click on color 6 changes the canvas color" name=" click on color 6 changes the canvas color" time="0.008">
+    </testcase>
+  </testsuite>
+</testsuites>
